@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Проектная работа №3</title>
+    <!--Отлично: Вы подключили normalize.css +++++--> 
+    <link rel="stylesheet" href="vendor/normalize.css">
+    <link rel="stylesheet" href="pages/index.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container header__container">
+        <a href="#"><img class="header__logo" src="images/logo.svg" alt="logo"></a>
+        <ul>
+            <li class="header__lang"><a href="#" class="header__link">Ru</a></li>
+            <li class="header__lang"><a href="#" class="header__link">En</a></li>
+        </ul>
+    </div>
+</header>
+
+<!-- Нужно исправить: Тега lead не существует +++++-->
+<div class="lead">
+    <div class="container lead__container">
+        <h1 class="lead__title">Путешествия по России</h1>
+        <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+        <img src="images/main_picture.png" alt="a girl" class="lead__image">
+        <img src="images/road_of_russia.png" alt="a road" class="lead__road">
+        <p class="lead__caption">ваша полка — верхняя</p>
+    </div>
+</div>
+
+<!-- Нужно исправить: Тега intro не существует +++++-->
+<div class="intro">
+    <div class="container intro__container">
+        <h2 class="intro__title">Чего мы там не видели?</h2>
+        <p class="intro__subtitle">Зачем путешествовать по своему дому</p>
+        <div class="intro__content-row">
+            <p class="intro__text intro__text_regular">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
+            <p class="intro__text intro__text_bold">Автор текста: <!--Нужно исправить: Модификатор intro__text_normal не может существовать в отрыве от intro__text +++++-->++++
+                <span class="intro__text intro__text_normal">JJDKSJDKSJKJS  </span> Дата:<span class="intro__text intro__text_normal"> 05.05.1968</span></p>
+        </div>
+        <ul class="intro__text intro__text_list">
+            <li>Часовых поясов <span class="intro__text intro__text_normal">11</span></li>
+            <li>Объектов природного наследия ЮНЕСКО <span class="intro__text intro__text_normal">12</span></li>
+            <li>Объектов культурного наследия ЮНЕСКО<span class="intro__text intro__text_normal"> 16</span></li>
+            <li>Природных заповедников<span class="intro__text intro__text_normal"> 105</span></li>
+            <li>Аэропортов<span class="intro__text intro__text_normal"> 241</span></li>
+        </ul>
+    </div>
+</div>
+
+<!-- Нужно исправить: Тега photo-grid не существует +++++-->
+<div class="photo-grid">
+    <div class="container photo-grid__container">
+        <img class="grid__item" alt="a picture of nature" src="images/train.jpg">
+        <img class="grid__item" alt="a picture of nature" src="images/atharva-tulsi.jpg">
+        <img class="grid__item" alt="a picture of nature" src="images/tuman.jpg">
+        <img class="grid__item" alt="a picture of nature" src="images/sochi.jpg">
+        <img class="grid__item" alt="a picture of nature" src="images/arisa.jpg">
+        <img class="grid__item" alt="a picture of nature" src="images/baikal.jpg">
+        <img class="grid__item" alt="a picture of nature" src="images/elbrus.jpg">
+        <img class="grid__item" alt="a picture of nature" src="images/kondratiev.jpg">
+        <img class="grid__item" alt="a picture of nature" src="images/kamchatka-1.jpg">
+        <img class="grid__item" alt="a picture of nature" src="images/kamchatka-2.jpg">
+        <img class="grid__item" alt="a picture of nature" src="images/baikal-2.jpg">
+        <img class="grid__item" alt="a picture of nature" src="images/ergaki.jpg">
+    </div>
+</div>
+
+<!-- Нужно исправить: Тега places не существует+++++ -->
+<section class="places">
+    <div class="place">
+        <h2 class="place__title">Куршская коса</h2>
+        <p class="place__url-heading">URL</p>
+        <a href="#" class="place__url">park-kosa.ru</a>
+        <img class="place__image" alt="main picture" src="images/kosa.jpg">
+        <div class="place__paragraphs">
+            <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона на краю российского анклава.</p>
+            <p class="place__paragraph">На этом Калининградская область не заканчивается. Для путешественника и исследователя там же по соседству — самая западная точка России, Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.</p>
+        </div>
+    </div>
+
+    <div class="place">
+        <h2 class="place__title">Кольский</h2>
+        <p class="place__url-heading place__url-heading_oneline">URL</p>
+        <a href="#" class="place__url place__url_oneline">National Geographic</a>
+        <img class="place__image" alt="main picture" src="images/kolsky.jpg">
+        <div class="place__paragraphs">
+            <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на юг — тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
+            <p class="place__paragraph">Возможно, вы смотрели Звягинцева и даже слышали историю арктического фестиваля в Териберке. Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний об уроках географии. Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас давно накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом в Мурманск.</p>
+        </div>
+    </div>
+
+
+    <div class="place">
+        <h2 class="place__title">Алтай</h2>
+        <p class="place__url-heading place__url-heading_oneline">URL</p>
+        <a href="#" class="place__url place__url_oneline">Facebook</a>
+        <img class="place__image" alt="main picture" src="images/altai.jpg">
+        <div class="place__paragraphs">
+            <p class="place__paragraph">Алтай — одно из красивейших мест в России. В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и озёра. А если вы откроете в автомобиле окна, сможете познакомиться с невидимым чудом здешних мест — горным воздухом.</p>
+            <p class="place__paragraph">Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом. Так вы увидите всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
+        </div>
+    </div>
+
+    <div class="place">
+        <h2 class="place__title">Зимний Байкал</h2>
+        <p class="place__url-heading">URL</p>
+        <a href="#" class="place__url">https://vk.com/baikalmile</a>
+        <img class="place__image" alt="main picture" src="images/winter-baikal.jpg">
+        <div class="place__paragraphs">
+            <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в России.</p>
+            <p class="place__paragraph">Конечно, это всё так. Но Байкал ещё идеальное место для&nbsp;соревнований по скийорингу. Это такой вид спорта, когда лыжник привязывает себя к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
+        </div>
+    </div>
+
+    <div class="place">
+        <h2 class="place__title">Карелия</h2>
+        <p class="place__url-heading place__url-heading_oneline">URL</p>
+        <a href="#" class="place__url place__url_oneline">http://vodlozero.ru/</a>
+        <img class="place__image" alt="main picture" src="images/karelia.jpg">
+        <!--Нужно исправить: Лишняя обертка +++++-->
+            <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
+    </div>
+</section>
+
+<section class="video">
+    <h2 class="content-title">В глубины Земли и в дальний космос</h2>
+    <p class="content-subtitle">Видео от студии Stereotactic о местах в России, где ведутся фундаментальные исследования</p>
+    <div class="video__container">
+        <!--Нужно исправить: Не используйте числительные в именах классов+++-->
+        <div class="video__item video__item_left">
+            <!--Нужно исправить: Модификатор video__icon_play не может существовать в отрыве от video__icon +++++-->
+           <a href ="https://www.youtube.com/watch?v=GOlSrTbiBK0"> <img class="video__icon video__icon_type_play" alt="icon_play" src="images/icon_play.svg"></a>
+            <p class="video__duration">6:30</p>
+            <h3 class="video__title">Colors of Kamchatka</h3>
+            <p class="video__subtitle">Director: Pavel Karykhalin</p>
+            <div class="video__item-bg">
+            </div>
+        </div>
+        <!--Нужно исправить: Не используйте числительные в именах классов++++-->
+        <div class="video__item video__item_right">
+           <a href="https://vimeo.com/290675450"> <img class="video__icon" alt="icon_play video__icon_type_play" src="images/icon_play.svg"></a>
+            <p class="video__duration">24:45</p>
+            <h3 class="video__title">Обсерватория | Observatory</h3>
+            <p class="video__subtitle">Director: Alexander Khudokon </p>
+            <div class="video__item-bg">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Нужно исправить: Тега additional не существует +++-->
+<section class="additional">
+    <h2 class="content-title">А также</h2>
+    <p class="content-subtitle">места, рекомендованные нашими фотографами</p>
+    <div class="container additional__container">
+        <!--Нужно исправить: Не используйте числительные в именах классов+++-->
+        <div class="additional__item additional__item_nvrssk">
+            <h3 class="additional__heading">Новороссийская бухта</h3>
+            <p class="additional__text">Главный торговый порт не курорт, но море здесь лазурное, и толпы кораблей на рейде. Залюбуешься.</p>
+        </div>
+
+        <!--Нужно исправить: Не используйте числительные в именах классов+++-->
+        <div class="additional__item additional__item_shihan">
+            <h3 class="additional__heading">Аракульский шихан</h3>
+            <p class="additional__text">Даже для Южного Урала, где красиво везде, это пейзаж выдающийся. И там отсутствует несносная мошкá.</p>
+        </div>
+        <!--Нужно исправить: Лишняя обертка +++-->
+            <!--Нужно исправить: Не используйте числительные в именах классов+++-->
+            <div class="additional__item additional__item_cherepovets">
+                <h3 class="additional__heading">Череповец</h3>
+                <p class="additional__text">Громадный металлургический комбинат на водном пути с Волги в Балтийское море. В нём есть своя красота.</p>
+                <!--Нужно исправить: Лишняя обертка+++ -->
+            </div>
+        <!--Нужно исправить: Лишняя обертка -->
+        <div class="additional__item additional__item_nikola">
+                <h3 class="additional__heading">Никола-Ленивец</h3>
+                <p class="additional__text">Оцените ответ современных художников идолам капища, которое было тут при древнем поселении на реке Угра.</p>
+                <!--Нужно исправить: Лишняя обертка+++ -->
+        </div>
+    </div>
+</section>
+
+<!-- Нужно исправить: Тега comments не существует+++ -->
+<section class="comments">
+    <h2 class="content-title">Фотографы, снимающие Россию</h2>
+    <p class="content-subtitle">Природа и люди вдохновили их работы, удостоенные наград на международных конкурсах</p>
+    <div class="comments__container">
+        <div class="comment">
+            <!--Нужно исправить: Не должно быть пробелов в пути к картинке+++ -->
+            <img src="images/comment__image(3).png" alt="commentator's photo" class="comment__image">
+            <!--Нужно исправить: Лишняя обертка +++-->
+            <p class="comment__quote"><!-- Нужно исправить: Тега quote не существует +++-->
+                «Если вам кажется, что в России ничего не происходит, то просто выгляньте “наружу”…»
+            </p>
+            <p class="comment__author">Виктор Лягушкин</p>
+        </div>
+        <div class="comment">
+            <!--Нужно исправить: Не должно быть пробелов в пути к картинке +++-->
+            <img src="images/comment__image(2).png" alt="commentator's photo" class="comment__image">
+            <!--Нужно исправить: Лишняя обертка ++++-->
+            <p class="comment__quote"><!-- Нужно исправить: Тега quote не существует++++ -->
+                «Если в город едут туристы — неважно за чем они туда едут: за шамбалой или фрески Рублева искать, или на родину Тарковского — туристы обеспечивают любой город молодёжью, рабочими местами и в конечном счёте наполняют его жизнью.»
+            </p>
+            <p class="comment__author">Иван Хафизов</p>
+        </div>
+        <div class="comment">
+            <!--Нужно исправить: Не должно быть пробелов в пути к картинке+++ -->
+            <img src="images/comment__image(1).png" alt="commentator's photo" class="comment__image">
+            <!--Нужно исправить: Лишняя обертка++++ -->
+            <p class="comment__quote"><!-- Нужно исправить: Тега quote не существует+++ -->
+                «Ты приезжаешь, и люди рассказывают тебе, как им плохо. А когда ты покажешь, как им плохо, то ты сволочь и всё очернил.»
+            </p>
+            <p class="comment__author">Сергей Максимишин</p>
+        </div>
+    </div>
+</section>
+
+<!-- Нужно исправить: Тега cover не существует +++-->
+<section class="cover">
+    <div class="container cover__container">
+        <h2 class="cover__title">До Байкала «на собаках»</h2>
+        <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
+    </div>
+</section>
+
+<!-- Нужно исправить: Тега emblem не существует ++++-->
+<section class="emblem">
+    <div class="container emblem__container">
+        <h2 class="emblem__title">Природа на гербах российских городов</h2>
+        <div class="emblem__items">
+            <div class="emblem__item">
+                <!--Нужно исправить: Не должно быть пробелов в пути к картинке++++ -->
+                <img src="images/cover__image(1).png" alt="pictures of coats of arms" class="emblem__image">
+                <p class="emblem__city">Великий Новгород</p>
+            </div>
+            <div class="emblem__item">
+                <!--Нужно исправить: Не должно быть пробелов в пути к картинке++++ -->
+                <img src="images/cover__image(2).png" alt="pictures of coats of arms" class="emblem__image">
+                <p class="emblem__city">Ростов Великий</p>
+            </div>
+            <div class="emblem__item">
+                <!--Нужно исправить: Не должно быть пробелов в пути к картинке ++++-->
+                <img src="images/cover__image(3).png" alt="pictures of coats of arms" class="emblem__image">
+                <p class="emblem__city">Тамбов</p>
+            </div>
+            <div class="emblem__item">
+                <img src="images/birdsCityLegends02_.jpg" alt="pictures of coats of arms" class="emblem__image">
+                <p class="emblem__city">Елабуга</p>
+            </div>
+            <div class="emblem__item">
+                <!--Нужно исправить: Не должно быть пробелов в пути к картинке ++++-->
+                <img src="images/cover__image(5).png" alt="pictures of coats of arms" class="emblem__image">
+                <p class="emblem__city">Пермь</p>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- Нужно исправить: Тега barentsburg не существует+++ -->
+<section class="barentsburg">
+    <div class="container barentsburg__container">
+        <h2 class="barentsburg__title">Баренцбург</h2>
+        <p class="barentsburg__coord">78.0648° с.ш. 14.2335° в.д.</p>
+        <img class="barentsburg__map" alt="map" src="images/map.jpg">
+        <div class="barentsburg__url">
+            <p class="barentsburg__text">Арктика и соседство с Норвегией — мало кто знает о жизни самого западного российского посёлка, который находится на Шпицбергене.</p>
+            <p class="place__url-heading barentsburg__url-heading">URL</p>
+            <a href="#" class="barentsburg__link">Умереть или родиться здесь практически невозможно</a>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container footer__container">
+        <ul class="footer__list">
+            <li><a href="#" class="footer__link">Карты</a></li>
+            <li><a href="#" class="footer__link">Погода</a></li>
+            <li><a href="#" class="footer__link">Расписание</a></li>
+            <li><a href="#" class="footer__link">Календарь</a></li>
+            <li><a href="#" class="footer__link">Путешествия</a></li>
+        </ul>
+        <p class="footer__copyright"> © 2020. Коля</p>
+    </div>
+</footer>
+
+
+</body>
+</html>
+
+
+<!--
+
+  Отлично:
+
+
+    Вы используете правильные относительные пути к изображениям
+    У всех картинок есть атрибут alt
+    Вы правильно размечаете заголовки
+    У вас верно подключены файлы стилей
+    Вы не фиксируете высоту текстового контента
+    Верстка соответствует брифу 
+
+    <УРААА>
+
+  Нужно исправить:
+
+
+    1. Блоки video должны быть реализованы как ссылки, при клике на них должно открываться видео, которое дано в задании+++
+    2. Текст в блоке cover начинает ехать при разной ширине браузера+++
+    3. Исправьте ошибки в БЭМ, отметил случаи в коде.+++
+    4. Удалите лишние обертки. Помните, если у обертки только один потомок, скорее всего она лишняя+++
+    5. Не используйте числительные в именах классах. Вы должны стремиться сделать универсальные классы
+   В реальном проекте вас могут попросить через некоторое время добавить еще 10 новых элементов или изменить порядок текущих, если
+   вы не используете универсальные имена классов, то вам придется каждый раз менять порядок числительных+++
+    6. Текстовый контент должен быть в теге p или h. У вас встречается текст внутри div, просмотрите весь проект и поправьте++++
+    7. Проверьте ваш код на валидаторе и исправьте ошибки https://validator.w3.org/nu/#textarea+++
+    8. Не нужно придумывать собственные теги, ознакомьтесь с документацией html+++
+
+
+
+
+
+
+  Всегда используйте валидатор для самопроверки верстки https://validator.w3.org/nu/#textarea .
+  Он поможет отловить большинство ошибок.++
+
+  Не удаляйте, пожалуйста, мои комментарии до принятия работы.
+
+  Напоминаю вам, что работа принимается только после исправления всех замечаний с пометкой "Нужно исправить", пометки
+  "Можно лучше" также желательны к исправлению для вашего развития, однако, с ними работа будет принята.
+
+-->
+
+<!--
+Исправить:
+
+1. <придумайте имя автора> такие конструкции нужно заменять на текст, иначе появляется ошибка в валидаторе+++
+2. Осталось много лишнийх оберток, например barentsburg. Но не только, в прошлой итерации описал принцип обнаружения
+-->
+
+<!--Не исправлены предыдущие две ошибки
+1. Удалите невалидные конструеции, используйте валидатор для помощи
+2. Почти у всех блоков есть лишние обертки. Помните, если у обертки только один потомок, скорее всего она лишняя
+-->
